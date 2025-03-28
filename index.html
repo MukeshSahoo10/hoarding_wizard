@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
+
+    <title>Hoarding wizard</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Icon Font Css -->
+    <link rel="stylesheet" href="assets/plugins/icofont/icofont.min.css">
+    <!-- Slick Slider  CSS -->
+    <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Set up the container to hide overflow */
+
+
+        /* Hide all sections initially */
+        .showin1,
+        .showin2,
+        .showin3 {
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            /* background-color: red; */
+            width: 60vw;
+
+            h2 {
+                font-size: 6rem;
+            }
+        }
+
+        /* Keyframes for fade animation */
+        @keyframes fadeInOut {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            10%,
+            30% {
+                opacity: 1;
+            }
+
+            40%,
+            60% {
+                opacity: 0;
+            }
+        }
+
+        /* Apply the animation to each section with different delays */
+        .showin1 {
+            animation: fadeInOut 9s infinite;
+        }
+
+        .showin2 {
+            animation: fadeInOut 9s infinite;
+            animation-delay: 3s;
+            /* Delay start by 3 seconds */
+        }
+
+        .showin3 {
+            animation: fadeInOut 9s infinite;
+            animation-delay: 6s;
+            /* Delay start by 6 seconds */
+        }
+    </style>
+
+
+</head>
+
+<body id="top">
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
+            <div class="container" style="height: 8vh;">
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="assets/image/HW Logo.png" alt="Hoarding Wizard Logo"
+                        style="width: auto; height: auto; max-width: 100%; max-height: 50px;">
+                </a>
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain"
+                    aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icofont-navigation-menu"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarmain">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+
+
+                        <li class="nav-item"><a class="nav-link" href="privacypolicy.html">Privacy & Policy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="termsandconditions.html">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <ul class="list-inline" style="margin-top: 10px;">
+                            <li class="list-inline-item"><a
+                                    href="https://www.instagram.com/hoarding_wizard?igsh=dnZvN2V0dmZvNHdk"
+                                    target="_blank"><i class="icofont-facebook"></i></a></li>
+                            <li class="list-inline-item"><a
+                                    href=" https://x.com/HoardingWizard?t=eIdmPawCwHkcnsmmDt0qJA&s=08"
+                                    target="_blank"><i class="icofont-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/company/hoarding-wizard/"
+                                    target="_blank"><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section bg-blue-grdient" style="padding-top: 150px; padding-bottom: 80px;">
+        <div class="container">
+            <div class="row" style="padding-bottom: 20px;">
+                <div class="col-12 showin1">
+                    <h2 style=" color: #ffffff; font-size: 4rem;">Advertise Smarter, Not Harder" - Efficient. Effective.
+                        Eco-friendly</h2>
+                    <button class="discoverbtn">
+                        Book Your Slot
+                    </button>
+                </div>
+                <div class="col-12 showin2">
+                    <h2 style=" color: #ffffff; font-size: 4rem;">Effortless Advertising, Endless Impact </h2>
+                    <button class="discoverbtn discoverbtn2">
+                        Book Your Slot
+                    </button>
+                </div>
+                <div class="col-12 showin3">
+                    <h2 style=" color: #ffffff; font-size: 4rem;">Making outdoor advertisement easy , simple and
+                        acessable </h2>
+                    <button class="discoverbtn discoverbtn3 ">
+                        Book Your Slot
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="cta-section ">
+        <div class="container">
+            <div class="cta position-relative">
+                <div class="row"
+                    style="display: flex; justify-content: center; align-items: center;position: relative; ">
+                    <h1 style="color: #000000; text-align: center; padding-top: 30px; font-size: 3rem; ">
+                        we create mass public's eye <span style="color: #fc0841;">attention</span>
+                    </h1>
+                    <p>We are a value-driven organization. Our core values inspire us to push our boundaries and set
+                        benchmarks for others</p>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-stat" data-aos="fade-up" data-aos-duration="1000">
+                            <i class="icofont-doctor"></i>
+                            <span class="h3">00</span>
+                            <p>Happy People</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-stat" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="icofont-flag"></i>
+                            <span class="h3">10</span>+
+                            <p>No of Appointment</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-stat" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="icofont-badge"></i>
+                            <span class="h3">00</span>+
+                            <p>Screens Place</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-stat" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="icofont-globe"></i>
+                            <span class="h3">01</span>
+                            <p>Country Cover</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section" style="padding-bottom: 5rem; padding-top: 2rem;">
+        <div class="container-fluid">
+            <div class="container px-5 py-5">
+                <div class="row" style="padding-bottom: 20px;">
+                    <div class="col-12" style="justify-content: center; align-items: center; text-align: center;">
+                        <!-- <p style="color: #fc0841; font-weight: 600;">WHAT WE DO</p> -->
+                        <h2 style="font-size: 55px; color: #180338;" data-aos="fade-up" data-aos-duration="1000">OUR
+                            SERVICES </h2>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 ">
+
+
+                        <div data-aos="fade-up" data-aos-duration="2000" class="card"
+                            style="width: fit-content; border-radius: 5px;  height: 37vh; border:none; background: #00c39a; ">
+
+                            <a href="product.html" style="text-decoration: none;">
+                                <div class="card-body hover-card">
+                                    <h4 style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px;">Café Advertisement
+                                    </h4>
+                                    <h1 style="font-size: 20px; color: #ffffff;">Café Advertisement</h1>
+                                    <h1 style="font-size: 14px;  color: #000000; font-weight: 200;">
+                                        We create personalized hoardings tailored to your brand, ensuring maximum
+                                        visibility and engagement for
+                                        your project.
+                                    </h1>
+                                    <hr>
+                                    <h4
+                                        style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px; padding: 0; margin: 0;">
+                                    </h4>
+                                    <h4 class="hover-effect">Know More</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000"
+                            style="width: fit-content; border-radius: 5px;  height: 37vh; border:none; background: #fa7565;">
+
+                            <div class="card-body">
+                                <h4 style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px;">coming soon</h4>
+                                <h1 style="font-size: 20px; color: #ffffff;">coming soong</h1>
+                                <h1 style="font-size: 14px;  color: #eeeeee; font-weight: 200;">Our team provides quick,
+                                    hassle-free hoarding installations, seamless execution and minimal
+                                    disruption to your site.</h1>
+                                <hr style="border: none; background-color: white; height: 1px; opacity: 0.3;">
+                                <h4
+                                    style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px; padding: 0; margin: 0;">
+                                </h4>
+                                <h4
+                                    style="font-size: 22px; color: #ffffff; letter-spacing: 2px; padding: 0; margin: 0;">
+                                    coming soon</h4>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 ">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000"
+                            style="width: fit-content;  border-radius: 5px;  height: 37vh;  border:none; background: #ebff9a;">
+
+                            <div class="card-body">
+                                <h4 style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px;">coming soon</h4>
+                                <h1 style="font-size: 20px; color: #180338;">coming soon</h1>
+                                <h1 style="font-size: 14px;  color: #000000; font-weight: 200;">Our team provides quick,
+                                    hassle-free hoarding installations, seamless execution and minimal
+                                    disruption to your site.
+                                </h1>
+                                <hr>
+                                <h4
+                                    style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px; padding: 0; margin: 0;">
+                                </h4>
+                                <h4
+                                    style="font-size: 22px; color: #000000; letter-spacing: 2px; padding: 0; margin: 0;">
+                                    coming soon</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 ">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000"
+                            style="width: fit-content; border-radius: 5px;  height: 37vh; border:none; background: #ffd155;">
+
+                            <div class="card-body">
+                                <h4 style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px;">coming soon</h4>
+                                <h1 style="font-size: 20px; color: #000000;">coming soon</h1>
+                                <h1 style="font-size: 14px;  color: #000000; font-weight: 200;">Our hoardings are built
+                                    to last, combining durability with striking visuals to stand out in any environment.
+                                </h1>
+                                <hr>
+                                <h4
+                                    style="font-size: 12px; color: #5e5e5f; letter-spacing: 2px; padding: 0; margin: 0;">
+                                </h4>
+                                <h4
+                                    style="font-size: 22px; color: #000000; letter-spacing: 2px; padding: 0; margin: 0;">
+                                    coming soon</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
+
+
+
+    <section>
+        <div class="container px-5 py-5">
+            <div class="row">
+                <div class="col-6 hoarding-attention" data-aos="fade-right" data-aos-duration="1000">
+                    <!-- This is the area where the text will overlap -->
+                </div>
+                <div class="col-6">
+                    <div class="text-overlap">
+                        <h2>We help to create eye attention<span style="color: #fc0841;">.</span></h2>
+                        <div class="divider2 mb-4"></div>
+                        <p class="divider2nextp" data-aos="fade-left" data-aos-duration="2000">We are a values-based
+                            organization, motivated by our principles to challenge limits and set new standards for
+                            others to follow</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- footer Start -->
+    <footer class="footer section black-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mr-auto col-sm-6">
+                    <div class="widget mb-5 mb-lg-0">
+                        <div class="logo mb-4 footerlogo">
+
+                            <img src="assets/image/HW Logo W.png" alt="Hoarding Wizard Logo"
+                                style="width: auto; height: auto; max-width: 100%; max-height: 100px;">
+                            <br> <br>
+
+                            <p class="  text-xl-start">
+                                All Rights Reserved | <a href="#" target="_blank" style="color: #ffffff;"> Hoarding
+                                    Wizard</a> © 2024
+                                Made with <span style="color: #fc0841;">♥</span> by <a
+                                    href="https://www.linkedin.com/in/shreeram-das-14324a195/" target="_blank"
+                                    style="color: #fc0841; font-size: 10px;">Shreeram Das</a>
+                            </p>
+                        </div>
+
+
+                        <ul class="list-inline  mt-4">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/"><i
+                                        class="icofont-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/"><i
+                                        class="icofont-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.pinterest.com/"><i
+                                        class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widget mb-5 mb-lg-0">
+                        <h4 class="text-capitalize mb-3">Other Links</h4>
+                        <div class="divider mb-4"></div>
+
+                        <ul class="list-unstyled footer-menu lh-35">
+                            <li><a href="news.html">Our News</a></li>
+                            <li><a href="videos.html">Our Videos </a></li>
+                            <li><a href="product.html">Our Gallery</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widget mb-5 mb-lg-0">
+                        <h4 class="text-capitalize mb-3"> Details</h4>
+                        <div class="divider mb-4"></div>
+
+                        <ul class="list-unstyled footer-menu lh-35">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="privacypolicy.html">Privacy & Policy</a></li>
+                            <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+
+
+
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="widget widget-contact mb-5 mb-lg-0">
+                        <h4 class="text-capitalize mb-3">Contact</h4>
+                        <div class="divider mb-4"></div>
+
+                        <ul class="list-unstyled footer-menu lh-35">
+
+                            <li><a href="contact.html">Contact Us</a></li>
+
+
+
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 992px
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                // when window width is >= 1200px
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            }
+        });
+    </script>
+    <script>
+        let currentSlide = 0;
+
+        function changeSlide(n) {
+            showSlide(currentSlide += n);
+        }
+
+        function showSlide(n) {
+            const slides = document.querySelector('.slides');
+            const totalSlides = document.querySelectorAll('.slide').length;
+
+            if (n >= totalSlides) {
+                currentSlide = 0;
+            } else if (n < 0) {
+                currentSlide = totalSlides - 1;
+            }
+
+            slides.style.transform = `translateX(${-currentSlide * 100}%)`;
+        }
+
+        // Auto-slide every 3 seconds (adjust the interval as needed)
+        setInterval(function () {
+            changeSlide(1);
+        }, 3000);
+    </script>
+
+    <!-- Main jQuery -->
+    <script src="assets/plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="assets/plugins/bootstrap/js/popper.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="assets/plugins/counterup/jquery.waypoints.min.js"></script>
+
+    <script src="assets/plugins/shuffle/shuffle.min.js"></script>
+    <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    <script src="assets/plugins/google-map/map.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact.js"></script>
+
+</body>
+
+</html>

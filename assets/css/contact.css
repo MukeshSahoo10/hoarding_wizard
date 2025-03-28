@@ -1,0 +1,106 @@
+/* Mobile Responsiveness */
+
+/* General adjustments for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Slightly smaller font size */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjust heading sizes */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .navbar {
+        padding: 10px 0; /* Reduce navbar padding */
+    }
+
+    .navbar-brand img {
+        max-height: 40px; /* Adjust logo size */
+    }
+
+    .contact-block {
+        text-align: left; /* Align text to the left for better readability */
+    }
+
+    .section {
+        padding: 20px 0; /* Reduce section padding */
+    }
+
+    .page-title {
+        padding: 60px 0; /* Adjust padding for page title */
+    }
+
+    .text-lg {
+        font-size: 28px; /* Adjust large text size */
+    }
+
+    .footer {
+        padding: 40px 0; /* Reduce footer padding */
+    }
+
+    .footer .widget {
+        margin-bottom: 30px; /* Adjust widget spacing */
+    }
+
+    .divider {
+        width: 30px; /* Adjust divider width */
+    }
+
+    .btn {
+        font-size: 12px; /* Adjust button font size */
+        padding: 10px 15px; /* Adjust button padding */
+    }
+
+    .contact-info {
+        flex-direction: column; /* Stack contact info vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .contact-block {
+        margin-bottom: 20px; /* Add margin between contact blocks */
+    }
+}
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Further reduce heading sizes */
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Stack navbar items vertically */
+    }
+
+    .navbar-collapse {
+        text-align: center; /* Center align navbar items */
+    }
+
+    .contact-block {
+        text-align: center; /* Center contact block text */
+    }
+
+    .footer .widget {
+        text-align: center; /* Center footer widget text */
+    }
+
+    .divider {
+        width: 20px; /* Further adjust divider width */
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width */
+        margin-bottom: 10px; /* Add margin between buttons */
+    }
+}

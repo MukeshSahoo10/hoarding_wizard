@@ -1,0 +1,88 @@
+/* Responsive Styles */
+
+/* General adjustments for smaller screens */
+@media (max-width: 768px) {
+body {
+    font-size: 14px; /* Slightly smaller font size for mobile */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5rem; /* Adjust heading sizes */
+}
+
+.navbar {
+    padding: 10px; /* Reduce padding in navbar */
+}
+
+.navbar-brand img {
+    max-height: 40px; /* Ensure logo fits well */
+}
+
+.section {
+    padding: 20px 10px; /* Adjust section padding */
+}
+
+.showin1, .showin2, .showin3 {
+    width: 100%; /* Full width for mobile */
+    text-align: center; /* Center text */
+}
+
+.btn {
+    width: 100%; /* Full width buttons */
+    padding: 10px; /* Adjust padding */
+}
+
+.counter-stat {
+    margin-bottom: 20px; /* Space between counters */
+}
+
+.card {
+    margin-bottom: 20px; /* Space between cards */
+}
+
+.hoarding-bacgbanner, .hoarding-bagpargraph {
+    height: auto; /* Allow height to adjust */
+    padding: 20px; /* Add padding */
+}
+
+.text-overlap h2 {
+    font-size: 2rem; /* Adjust font size for mobile */
+}
+
+.progress-container {
+    margin-bottom: 15px; /* Space between progress bars */
+}
+
+.footer {
+    padding: 30px 15px; /* Adjust footer padding */
+}
+
+.footer .widget {
+    margin-bottom: 20px; /* Space between footer widgets */
+}
+
+/* Media Queries for specific breakpoints */
+@media (max-width: 768px) {
+    h2, .h2 {
+        font-size: 1.5rem; /* Smaller headings */
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Stack navbar items */
+    }
+
+    .cta-section h1 {
+        font-size: 2rem; /* Adjust CTA heading size */
+    }
+}
+
+@media (max-width: 480px) {
+    .text-lg {
+        font-size: 1.5rem; /* Further reduce text size */
+    }
+
+    .divider2 {
+        width: 80%; /* Adjust divider width */
+    }
+}
+}
